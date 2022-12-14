@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body{
+    background-color: #222222 !important;
+}
+.container{
+    background-color: #2c2c2c !important;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+.header-container{
+    padding: 0px 24px 0px 24px;
+}
+.logo-container, .logo-container img{
+    max-width: 50px;
+    max-height: 90px;
+}
+.menu-nav-container{
+    display: grid;
+    align-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+.intro-container{
+    text-align: center;
+}
+.intro-content{
+    
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.intro-container p{
+    padding:0px;
+
+}
+.name{
+    font-size: 95px;
+    margin: -30px 0px -20px 0px;
+}
+.services{
+    color:#ffc107;
+}
+.mypicture{
+    background-image: url('../images/bg-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.skillset-bg{
+
+   
+    height: 444px;
+    background-color:#ffba00 ;
+}
+.skillset-container{
+  
+    color:#2c2c2c;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.skillset-container .header-text{
+    text-align: left;
+}
+.skillset-link-cont{
+    height: 258px;
+    align-items: center;
+    font-size: 24px;
+
+}
+.skillset-link{
+  cursor: pointer;
+  transition: font-size 0.25s;
+}    
+.skillset-link:hover{
+    font-size:40px;
+}
+.p-24{
+    padding:24px 24px 0px 24px;
+}
+.web-designs-container,.graphic-designs-container{
+    text-align: left;
+}
+
+.graphic-designs div img{
+    width: 100%;
+}
