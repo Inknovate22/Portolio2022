@@ -46,8 +46,6 @@ body{
     background-position: center;
 }
 .skillset-bg{
-
-   
     height: 444px;
     background-color:#ffba00 ;
 }
@@ -82,4 +80,12 @@ body{
 
 .graphic-designs div img{
     width: 100%;
+}
+div a{
+    text-decoration: none;
+    color: #2c2c2c;
+}
+div a:hover{
+    text-decoration: none;
+    color:black;
 }
