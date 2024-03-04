@@ -23,19 +23,23 @@ body{
 }
 .intro-container{
     text-align: center;
+    font-size: large;
 }
 .intro-content{
-    
+    font-family: inherit;
     padding-top: 96px;
     padding-bottom: 96px;
+    padding-left: 150px;
+    text-align: left;
 }
 .intro-container p{
-    padding:0px;
+    padding:12px;
 
 }
 .name{
-    font-size: 95px;
+    font-size: 125px;
     margin: -30px 0px -20px 0px;
+    padding-left: 20px;
 }
 .services{
     color:#ffc107;
