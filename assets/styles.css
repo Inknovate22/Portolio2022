@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
-
+@font-face {
+    font-family: 'Jawbreak';
+    src: url('fonts/Jawbreak-Sans.otf') format('opentype'); /* Adjust the path to the font file */
+}
 body{
     background-color: #222222 !important;
 }
@@ -34,14 +37,25 @@ body{
 }
 .intro-container p{
     padding:12px;
-
+    font-size: 22px;
 }
 .name{
-    font-size: 125px;
+
     margin: -30px 0px -20px 0px;
-    padding-left: 20px;
+    font-family: Jawbreak;
+    font-family: 'Jawbreak';
+    font-weight: 900;
+    font-size: 190px;
+    line-height: 155px;
+    
+    color: #ffc107 ;
+}
+.name h1{
+    padding: 0px;
 }
 .services{
+    padding-left: 20px;
+    line-height: 100px;
     color:#ffc107;
 }
 .mypicture{
