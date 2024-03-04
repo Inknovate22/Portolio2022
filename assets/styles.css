@@ -95,6 +95,10 @@ body{
 .web-designs-container,.graphic-designs-container{
     text-align: left;
 }
+.web-designs img{
+    width: 100%;
+    border-radius: 10px;
+}
 
 .graphic-designs div img{
     width: 100%;
