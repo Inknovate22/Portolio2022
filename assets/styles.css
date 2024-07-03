@@ -13,6 +13,11 @@ body{
 .copy-text{
     opacity: 65%;
 }
+.content-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     background-color: #222222 !important;
     color:white;
