@@ -6,9 +6,15 @@
 }
 body{
     background-color: #222222 !important;
+    background-image: url('/assets/images/noise.svg');
+    
+
+}
+.copy-text{
+    opacity: 65%;
 }
 .container{
-    background-color: #2c2c2c !important;
+    background-color: #222222 !important;
     color:white;
     font-family: 'Rubik', sans-serif;
 }
@@ -39,6 +45,35 @@ body{
     padding:12px;
     font-size: 22px;
 }
+.btn-border{
+    background-color: transparent; /* No background color */
+    border-radius: 10px;
+    border: 2px solid #ffba00; /* Black border with 2px width */
+    color: #ffba00; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: border-color 0.3s, color 0.3s; /* Smooth transition for border color and text color */
+}
+.btn-border:hover{
+    background-color: #ffba00;
+    color: #000;
+}
+.btn-dl-cv:hover{
+    background-color: #ffba00;
+    color: #000;
+}
+.btn-dl-cv{
+    background-color: transparent; /* No background color */
+    border-radius: 10px;
+    border: 2px solid #ffba00; /* Black border with 2px width */
+    color: #ffba00; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: border-color 0.3s, color 0.3s; /* Smooth transition for border color and text color */
+}
+
 .name{
 
     margin: -30px 0px -20px 0px;
@@ -65,7 +100,9 @@ body{
 }
 .skillset-bg{
     height: 444px;
+   
     background-color:#ffba00 ;
+   
 }
 .skillset-container{
   
