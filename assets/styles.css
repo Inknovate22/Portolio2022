@@ -63,6 +63,15 @@ body{
     padding:12px;
     font-size: 22px;
 }
+.btn-hire-me{
+    background-color: #ffba00 !important; /* No background color */
+    border: 2px solid #ffba00 !important; /* Black border with 2px width */
+    border-radius: 10px;
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: border-color 0.3s, color 0.3s; /* Smooth transition for border color and text color */
+}
 .btn-border{
     background-color: transparent; /* No background color */
     border-radius: 10px;
