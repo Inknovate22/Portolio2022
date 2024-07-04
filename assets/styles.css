@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@font-face {
+    font-family: 'Jawbreak';
+    src: url('fonts/Jawbreak-Sans.otf') format('opentype'); /* Adjust the path to the font file */
+}
+body{
+    background-color: #222222 !important;
+    /*background-image: url('/assets/images/noise.svg');*/
+    
+
+}
+.footer{
+    padding:100px;
+    background-color: #ffba00;
+    color: #222222;
+}
+.copy-text{
+    opacity: 65%;
+}
+.content-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #222222 !important;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+.header-container{
+    padding: 0px 24px 0px 24px;
+}
+.logo-container, .logo-container img{
+    max-width: 50px;
+    max-height: 90px;
+}
+.menu-nav-container{
+    display: grid;
+    align-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+.intro-container{
+    text-align: center;
+    font-size: large;
+}
+.intro-content{
+    font-family: inherit;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 150px;
+    text-align: left;
+}
+.intro-container p{
+    padding:12px;
+    font-size: 22px;
+}
+.btn-border{
+    background-color: transparent; /* No background color */
+    border-radius: 10px;
+    border: 2px solid #ffba00; /* Black border with 2px width */
+    color: #ffba00; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: border-color 0.3s, color 0.3s; /* Smooth transition for border color and text color */
+}
+.btn-border:hover{
+    background-color: #ffba00;
+    color: #000;
+}
+.btn-dl-cv:hover{
+    background-color: #ffba00;
+    color: #000;
+}
+.btn-dl-cv{
+    background-color: transparent; /* No background color */
+    border-radius: 10px;
+    border: 2px solid #ffba00; /* Black border with 2px width */
+    color: #ffba00; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: border-color 0.3s, color 0.3s; /* Smooth transition for border color and text color */
+}
+
+.name{
+
+    margin: -30px 0px -20px 0px;
+    font-family: Jawbreak;
+    font-family: 'Jawbreak';
+    font-weight: 900;
+    font-size: 190px;
+    line-height: 155px;
+    
+    color: #ffc107 ;
+}
+.name h1{
+    padding: 0px;
+}
+.services{
+    padding-left: 20px;
+    line-height: 100px;
+    color:#ffc107;
+}
+.mypicture{
+    background-image: url('../images/bg-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.skillset-bg{
+    height: 444px;
+   
+    background-color:#ffba00 ;
+   
+}
+.skillset-container{
+  
+    color:#2c2c2c;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.skillset-container .header-text{
+    text-align: left;
+}
+.skillset-link-cont{
+    height: 258px;
+    align-items: center;
+    font-size: 24px;
+
+}
+.skillset-link{
+  cursor: pointer;
+  transition: font-size 0.25s;
+}    
+.skillset-link:hover{
+    font-size:40px;
+}
+.p-24{
+    padding:24px 24px 0px 24px;
+}
+.web-designs-container,.graphic-designs-container{
+    text-align: left;
+}
+.web-designs img{
+    width: 100%;
+    border-radius: 10px;
+}
+.graphic-designs img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.graphic-designs div img{
+    width: 100%;
+}
+div a{
+    text-decoration: none;
+    color: #2c2c2c;
+}
+div a:hover{
+    text-decoration: none;
+    color:black;
+}
