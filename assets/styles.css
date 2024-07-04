@@ -10,10 +10,18 @@ body{
     
 
 }
+.footer-container{
+    padding: 24px 24px 0px 24px;
+}
 .footer{
+    
     padding:100px;
     background-color: #ffba00;
     color: #222222;
+   
+}
+.contact-details{
+    font-size: 35px !important;
 }
 .copy-text{
     opacity: 65%;
@@ -110,7 +118,6 @@ body{
 }
 .skillset-bg{
     height: 444px;
-   
     background-color:#ffba00 ;
    
 }
