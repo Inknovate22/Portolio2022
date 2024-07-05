@@ -63,6 +63,10 @@ body{
     padding:12px;
     font-size: 22px;
 }
+
+.form-group{
+    padding-bottom: 24px;
+}
 .btn-hire-me{
     background-color: #ffba00 !important; /* No background color */
     border: 2px solid #ffba00 !important; /* Black border with 2px width */
