@@ -63,6 +63,10 @@ body{
     padding:12px;
     font-size: 22px;
 }
+.brochures-img{
+    background-color: #ffff;
+    padding: 10px;
+}
 
 .form-group{
     padding-bottom: 24px;
